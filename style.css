@@ -1,0 +1,40 @@
+body {
+    display: flex;
+}
+
+form {
+    margin: 15px;
+}
+
+.banner {
+    width: max(0px, 25%);
+    background-image: url(bear.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sign-up {
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-group {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    margin: 10px 0;
+}
+
+input, label {
+    display: block;
+}
+
+input {
+    max-width: 200px;
+}
+
+
