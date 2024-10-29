@@ -73,12 +73,12 @@ input:focus {
     border: 1.5px solid rgb(79, 116, 238);
 }
 
-input:user-valid {
+input:user-valid, input:valid {
     border: 1.5px solid green;
     background-color: rgba(0, 128, 0, 0.05);
 }
 
-input:user-invalid {
+input:user-invalid{
     border: 1.5px solid red;
     background-color: rgba(255, 0, 0, 0.05);
 }
@@ -143,7 +143,7 @@ h1 {
 }
 
 .container {
-    padding: 150px 50px 25px;
+    padding: 150px 50px 0px;
     box-shadow: 1px 6px 12px 0px rgba(150,145,145,0.75);
     -webkit-box-shadow: 1px 6px 12px 0px rgba(150,145,145,0.75);
     -moz-box-shadow: 1px 6px 12px 0px rgba(150,145,145,0.75);
@@ -186,7 +186,7 @@ a {
 }
 
 .pwd-status {
-    display: none;
+    visibility: hidden;
     font-size: small;
     color: red;
 }
