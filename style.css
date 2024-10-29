@@ -184,3 +184,9 @@ button:active {
 a {
     color: #118a7e;
 }
+
+.pwd-status {
+    display: none;
+    font-size: small;
+    color: red;
+}
